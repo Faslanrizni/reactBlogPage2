@@ -13,8 +13,8 @@ function Customer(props:Customer) {
             <img src={props.avatar} className="card-img-top" alt={props.customerName} />
             <div className="card-body">
                 <h5 className="card-title">{props.customerName}</h5>
-                <p className="card-text">props.description</p>
-                <a href={props.userProfile} className="btn btn-primary">
+                <p className="card-text">{props.description}</p>
+                <a href={props.userProfile} className="btn btn-primary" target={""}>
                     Go to my profile
                 </a>
             </div>
